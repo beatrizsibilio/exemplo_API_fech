@@ -24,6 +24,7 @@ window.onload = function(){
       }
     );
   });
+  
   //método que lista uma pessoa
   buscar.addEventListener("click", function(){
     fetch(`https://www.jussimarleal.com.br/exemplo_api/pessoa/${id.value}`,{
